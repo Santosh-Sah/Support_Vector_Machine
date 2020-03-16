@@ -23,8 +23,8 @@ def testSupportVectorMachineConfussionMatrix():
     
     """
     Below is the confussion matrix
-    [[56  2]
-    [ 5 17]]
+    [[57  1]
+    [ 6 16]]
     
     """
 """
@@ -56,16 +56,15 @@ def testSupportVectorMachineClassificationReport():
     print(supportVectorMachineConfussionClassificationReport)
     
     """
-                 precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-          0       0.92      0.97      0.94        58
-          1       0.89      0.77      0.83        22
+          0       0.90      0.98      0.94        58
+          1       0.94      0.73      0.82        22
 
 avg / total       0.91      0.91      0.91        80
-
     """
     
 if __name__ == "__main__":
-    testSupportVectorMachineConfussionMatrix()
+    #testSupportVectorMachineConfussionMatrix()
     #testSupportVectorMachineAccuracy()
-    #testSupportVectorMachineClassificationReport()
+    testSupportVectorMachineClassificationReport()
